@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerador de Senhas</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Gerador de Senhas</h1>
+    <label for="tamanho">Tamanho da Senha:</label>
+    <input type="number" id="tamanho" min="4" max="30" value="12">
+    <button onclick="mostrarSenha()">Gerar Senha</button>
+    <br>
+    <label for="senha">Senha Gerada:</label>
+    <input type="text" id="senha" readonly>
+  </div>
+</body>
+</html>
+
